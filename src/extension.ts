@@ -1,3 +1,4 @@
+import * as UtilityClasses from './Utility_Classes/UtilityClasses.js';
 import * as vscode from 'vscode';
 
 
@@ -74,7 +75,7 @@ export function activate(context: vscode.ExtensionContext) {
 			  
 				let completionItems = [];
 			  
-				// List of method names
+				// List of method names(replace)
 				let methodNames = ['HEIGHT', 'ALIGNMENT', 'DISPLAY', 'AVATAR', 'WIDTH'];
 			  
 				// Create a completion item for each method
