@@ -138,7 +138,6 @@ export function activate(context: vscode.ExtensionContext) {
 				const lastIndex = linePrefix.lastIndexOf(',');
 				// Check if the last occurrence matches the pattern CoreClasses.<className>.
 				const match = linePrefix.substring(lastIndex+1,linePrefix.length).match(/CoreClasses\.(\w+)\./);
-				// console.log('MATCH:'+match);
 				if (!match) {
 					return undefined; // If not, return undefined
 				}
@@ -184,12 +183,6 @@ export function activate(context: vscode.ExtensionContext) {
 				const lastIndex = linePrefix.lastIndexOf(',');
 
 				// Check if the last occurrence matches the pattern CoreClasses.<className>.
-				const match = linePrefix.substring(lastIndex+1,linePrefix.length).match(/CoreClasses\.(\w+)\./);
-				
-				// Match the text with the pattern CoreClasses.<class>.<method>.
-				if (!match) {
-					return undefined;
-				}
 	
 				// Check if there is another method after the current one
 				const secondMatch = linePrefix.substring(lastIndex+1,linePrefix.length).match(/CoreClasses\.(\w+)\.(\w+)\./);
@@ -207,7 +200,6 @@ export function activate(context: vscode.ExtensionContext) {
 				const keyName = secondMatch[1];
 				const subkeyName = secondMatch[2];
 				
-				console.log(keyName+subkeyName);
 				// Initialize an array to store the completion items
 				let completionItems: any[] = [];
 				
@@ -237,17 +229,6 @@ export function activate(context: vscode.ExtensionContext) {
 				
 				const lastIndex = linePrefix.lastIndexOf(',');
 
-				// Match the first part of the string before the cursor
-				const match = linePrefix.substring(lastIndex+1,linePrefix.length).match(/CoreClasses\.(\w+)\./);
-				if (!match) {
-					return undefined; // If no match, return undefined
-				}
-	
-				// Match the second part of the string before the cursor
-				const secondMatch = linePrefix.substring(lastIndex+1,linePrefix.length).match(/CoreClasses\.(\w+)\.(\w+)\./);
-				if(!secondMatch) {
-					return undefined; // If no second match, return undefined
-				}
 	
 				// Match the third part of the string before the cursor
 				const thirdMatch = linePrefix.substring(lastIndex+1,linePrefix.length).match(/CoreClasses\.(\w+)\.(\w+)\.(\w+)\./);
@@ -265,7 +246,6 @@ export function activate(context: vscode.ExtensionContext) {
 				const keyName =thirdMatch[1];
 				const subkeyName = thirdMatch[2];
 				const subsubkeyName = thirdMatch[3];
-				console.log(keyName+subkeyName+subsubkeyName);
 				
 				// Initialize an array to hold the completion items
 				let completionItems: any[] = [];
