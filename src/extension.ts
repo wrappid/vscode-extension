@@ -21,7 +21,7 @@ export function activate(context: vscode.ExtensionContext) {
 			let completionItems = [];
 		 
 			// List of element names
-			let elementNames = ['COREBOX', 'COREIMAGE', 'COREAVATAR'];
+			let elementNames = ['CoreBox', 'CoreImage', 'CoreAvatar'];
 		 
 			// Create a completion item for each element
 			for (let elementName of elementNames) {
