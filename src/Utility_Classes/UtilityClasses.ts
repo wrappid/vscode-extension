@@ -1,4 +1,4 @@
-const UtilityClasses = {
+export const UtilityClasses = {
     DEV_BORDER: "devBorder",
     /**************************************************
      * Alignment
@@ -1130,4 +1130,4 @@ const UtilityClasses = {
     }
 };
 
-module.exports=UtilityClasses;
+// module.exports=UtilityClasses;
