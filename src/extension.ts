@@ -1,5 +1,6 @@
 //Import the UtilityClasses module.
-import * as UtilityClasses from './Utility_Classes/UtilityClasses.js';
+import * as UtilityClasses from './Keys/Keys.js';
+import * as CoreComponents from './Keys/Keys.js';
 import * as vscode from 'vscode';
 
 export function activate(context: vscode.ExtensionContext) {
@@ -18,15 +19,12 @@ export function activate(context: vscode.ExtensionContext) {
 	// Function to register a completion provider
 	 const provideCoreCompletion = vscode.languages.registerCompletionItemProvider('javascript', {
 		provideCompletionItems(document: vscode.TextDocument, position: vscode.Position, token: vscode.CancellationToken): Thenable<vscode.CompletionItem[]> {
-			let completionItems = [];
-		 
-			// List of element names
-			let elementNames = ['CoreBox', 'CoreImage', 'CoreAvatar'];
-		 
-			// Create a completion item for each element
-			for (let elementName of elementNames) {
+			let completionItems: any[] = [];
+
+			// Iterate over the keys of the UtilityClasses module.
+			Object.keys((CoreComponents as any)['CoreComponents']).forEach(function (elementName) {
 				completionItems.push(createCompletionItem(elementName));
-			}
+			});
 		 
 			return Promise.resolve(completionItems);
 		 }		 
