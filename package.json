@@ -42,5 +42,8 @@
   "bugs": {
     "url": "https://github.com/Swrnv-qc/wrppidextension/issues"
   },
-  "homepage": "https://github.com/Swrnv-qc/wrppidextension#readme"
+  "homepage": "https://github.com/Swrnv-qc/wrppidextension#readme",
+  "dependencies": {
+    "keys-completion": "file:../Keys/dist"
+  }
 }
