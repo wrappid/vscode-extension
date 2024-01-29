@@ -1,6 +1,6 @@
 import * as vscode from 'vscode';
 
-export const boilerPlate = vscode.languages.registerCompletionItemProvider('javascript', {
+export const boilerPlate = vscode.languages.registerCompletionItemProvider(['javascript', 'typescript'], {
 	// The provideCompletionItems method is called when the user triggers autocomplete (usually by pressing Ctrl+Space)
 	provideCompletionItems(document: vscode.TextDocument, position: vscode.Position, token: vscode.CancellationToken, context: vscode.CompletionContext) {
 		

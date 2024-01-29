@@ -1,12 +1,8 @@
 import * as vscode from 'vscode';
-// import * as CoreComponents from './Keys/Keys.js';
+import * as CoreComponents from './Keys/Keys.js';
 // import { CoreComponents } from "keys-completion";
-const {CoreComponents} = require("keys-completion/keys.js");
+// const {CoreComponents} = require("keys-completion/keys.js");
 
-// export function provideCoreCompletion(){
-	
-	// 	// Function to register a completion provider
-	// }
 function createCompletionItem(elementName: string): vscode.CompletionItem {
 	const completionItem = new vscode.CompletionItem(elementName, vscode.CompletionItemKind.Snippet);
 	// Set the insertText property of the completionItem object to the Core snippet for the element.
@@ -15,7 +11,7 @@ function createCompletionItem(elementName: string): vscode.CompletionItem {
 	return completionItem;
 }
 	
-export const provideCoreCompletion = vscode.languages.registerCompletionItemProvider('javascript', {
+export const provideCoreCompletion = vscode.languages.registerCompletionItemProvider(['javascript', 'typescript'], {
 	provideCompletionItems(document: vscode.TextDocument, position: vscode.Position, token: vscode.CancellationToken): Thenable<vscode.CompletionItem[]> {
 		let completionItems: any[] = [];
 

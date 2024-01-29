@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 // Function to register a completion provider
 	// This function will be called whenever the user types in a JavaScript file
-export const simplecompletions = vscode.languages.registerCompletionItemProvider('javascript', {
+export const simplecompletions = vscode.languages.registerCompletionItemProvider(['javascript', 'typescript'], {
 
     provideCompletionItems(document: vscode.TextDocument, position: vscode.Position, token: vscode.CancellationToken, context: vscode.CompletionContext) {
         // Create a new CompletionItem for 'styleClasses={[]}'
