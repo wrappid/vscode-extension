@@ -4,13 +4,23 @@ import * as CoreComponents from './Keys/Keys.js';
 // import { CoreComponents } from "keys-completion";
 // const {CoreComponents} = require("keys-completion/keys.js");
 
+// function createCompletionItem(elementName: string): vscode.CompletionItem {
+// 	const completionItem = new vscode.CompletionItem(elementName, vscode.CompletionItemKind.Snippet);
+// 	// Set the insertText property of the completionItem object to the Core snippet for the element.
+// 	completionItem.insertText = `<${elementName}>\n\t\n</${elementName}>`;
+// 	// Return the newly created completionItem object.
+// 	return completionItem;
+// }
 function createCompletionItem(elementName: string): vscode.CompletionItem {
-	const completionItem = new vscode.CompletionItem(elementName, vscode.CompletionItemKind.Snippet);
-	// Set the insertText property of the completionItem object to the Core snippet for the element.
-	completionItem.insertText = `<${elementName}>\n\t\n</${elementName}>`;
-	// Return the newly created completionItem object.
-	return completionItem;
+    const completionItem = new vscode.CompletionItem(elementName, vscode.CompletionItemKind.Snippet);
+    // Set the insertText property of the completionItem object to the Core snippet for the element.
+    completionItem.insertText = new vscode.SnippetString(`<${elementName}>\n\t$0\n</${elementName}>`);
+    // Set the insertTextFormat property of the completionItem object to Snippet.
+    // completionItem.insertTextFormat = vscode.InsertTextFormat.Snippet;
+    // Return the newly created completionItem object.
+    return completionItem;
 }
+
 	
 export const provideCoreCompletion = vscode.languages.registerCompletionItemProvider(['javascript', 'typescript'], {
 	provideCompletionItems(document: vscode.TextDocument, position: vscode.Position, token: vscode.CancellationToken): Thenable<vscode.CompletionItem[]> {

@@ -1,6 +1,7 @@
 {
   "name": "wrppidextension",
   "displayName": "WrppidExtension",
+  "publisher": "wrappid",
   "description": "This is the README for your extension \"wrppidextension\". After writing up a brief description, we recommend including the following sections.",
   "icon": "logo/logo.png",
   "version": "0.0.1",
@@ -50,5 +51,17 @@
   },
   "homepage": "https://github.com/Swrnv-qc/wrppidextension#readme",
   "dependencies": {
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/javascript.json"
+      }
+    ]
   }
 }

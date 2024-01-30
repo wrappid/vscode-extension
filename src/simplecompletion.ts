@@ -5,7 +5,9 @@ export const simplecompletions = vscode.languages.registerCompletionItemProvider
 
     provideCompletionItems(document: vscode.TextDocument, position: vscode.Position, token: vscode.CancellationToken, context: vscode.CompletionContext) {
         // Create a new CompletionItem for 'styleClasses={[]}'
-        const styleclassCompletion = new vscode.CompletionItem('styleClasses={[]}',vscode.CompletionItemKind.Property);
+        const styleClass='styleClasses={[]}';
+        const styleclassCompletion = new vscode.CompletionItem(styleClass,vscode.CompletionItemKind.Property);
+        styleclassCompletion.insertText=new vscode.SnippetString('styleClasses={[$0]}');
         // Create a new CompletionItem for 'CoreClasses'
         const commitCharacterCompletion = new vscode.CompletionItem('CoreClasses',vscode.CompletionItemKind.Method);
         // Set the commit characters for this item to '.'
