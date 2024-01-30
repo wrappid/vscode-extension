@@ -1,3 +1,3 @@
-# wrppidextension README
+# Warppid Extension README
 
-This is a test Extension for Wrappid Framework.
+This is a VS Code Extension for Wrappid Framework.
