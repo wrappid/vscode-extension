@@ -1,5 +1,6 @@
 import * as vscode from 'vscode';
 import * as UtilityClasses from './Keys/Keys.js';
+// import { UtilityClasses } from 'keys/dist/keys.js';
 // import {keys} from 'keys/'
 // import { UtilityClasses } from "keys-completion";
 
