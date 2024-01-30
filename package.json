@@ -39,8 +39,12 @@
     "url": "git+https://github.com/Swrnv-qc/wrppidextension.git"
   },
   "keywords": [],
-  "author": "Swrnv-qc",
   "license": "MIT",
+  "author": {
+    "name": "Wrappid",
+    "email": "wrappid.framework@gmail.com",
+    "url": "https://www.github.com/wrappid"
+  },
   "bugs": {
     "url": "https://github.com/Swrnv-qc/wrppidextension/issues"
   },
