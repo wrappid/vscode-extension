@@ -1,6 +1,6 @@
 import * as vscode from 'vscode';
 import * as CoreComponents from './Keys/Keys.js';
-// import { CoreComponents } from 'keys/dist/keys.js';
+// import { CoreComponents } from 'keys/dist/keys';
 // import { CoreComponents } from "keys-completion";
 // const {CoreComponents} = require("keys-completion/keys.js");
 
