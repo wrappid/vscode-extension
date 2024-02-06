@@ -48,11 +48,11 @@ export const subKeyCompletion = vscode.languages.registerCompletionItemProvider(
 
             // Find the last occurrence of the pattern before the cursor position
             const lastIndex = linePrefix.lastIndexOf(',');
-            console.log(lastIndex+1);
+            // console.log(lastIndex+1);
             // Check if the last occurrence matches the pattern CoreClasses.<className>.
             const match = linePrefix.substring(lastIndex+1,linePrefix.length).match(/CoreClasses\.(\w+)\./);
 
-            console.log(match);
+            // console.log(match);
             if (!match) {
                 return undefined; // If not, return undefined
             }
