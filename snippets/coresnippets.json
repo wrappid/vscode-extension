@@ -1,0 +1,1685 @@
+{
+    "ChildMap": {
+      "key": "ChildMap",
+      "prefix": "ChildMap",
+      "body": [
+        "<ChildMap>",
+        "\t$1",
+        "</ChildMap>"
+      ]
+    },
+    "CoreAccordion": {
+      "key": "CoreAccordion",
+      "prefix": "CoreAccordion",
+      "body": [
+        "<CoreAccordion>",
+        "\t$1",
+        "</CoreAccordion>"
+      ]
+    },
+    "CoreAccordionDetail": {
+      "key": "CoreAccordionDetail",
+      "prefix": "CoreAccordionDetail",
+      "body": [
+        "<CoreAccordionDetail>",
+        "\t$1",
+        "</CoreAccordionDetail>"
+      ]
+    },
+    "CoreAccordionSummary": {
+      "key": "CoreAccordionSummary",
+      "prefix": "CoreAccordionSummary",
+      "body": [
+        "<CoreAccordionSummary>",
+        "\t$1",
+        "</CoreAccordionSummary>"
+      ]
+    },
+    "CoreAlert": {
+      "key": "CoreAlert",
+      "prefix": "CoreAlert",
+      "body": [
+        "<CoreAlert>",
+        "\t$1",
+        "</CoreAlert>"
+      ]
+    },
+    "CoreApiVersion": {
+      "key": "CoreApiVersion",
+      "prefix": "CoreApiVersion",
+      "body": [
+        "<CoreApiVersion>",
+        "\t$1",
+        "</CoreApiVersion>"
+      ]
+    },
+    "CoreAppBar": {
+      "key": "CoreAppBar",
+      "prefix": "CoreAppBar",
+      "body": [
+        "<CoreAppBar>",
+        "\t$1",
+        "</CoreAppBar>"
+      ]
+    },
+    "CoreAppDiv": {
+      "key": "CoreAppDiv",
+      "prefix": "CoreAppDiv",
+      "body": [
+        "<CoreAppDiv>",
+        "\t$1",
+        "</CoreAppDiv>"
+      ]
+    },
+    "CoreAppVersion": {
+      "key": "CoreAppVersion",
+      "prefix": "CoreAppVersion",
+      "body": [
+        "<CoreAppVersion>",
+        "\t$1",
+        "</CoreAppVersion>"
+      ]
+    },
+    "CoreAsyncSelect": {
+      "key": "CoreAsyncSelect",
+      "prefix": "CoreAsyncSelect",
+      "body": [
+        "<CoreAsyncSelect>",
+        "\t$1",
+        "</CoreAsyncSelect>"
+      ]
+    },
+    "CoreAutocomplete": {
+      "key": "CoreAutocomplete",
+      "prefix": "CoreAutocomplete",
+      "body": [
+        "<CoreAutocomplete>",
+        "\t$1",
+        "</CoreAutocomplete>"
+      ]
+    },
+    "CoreAvatar": {
+      "key": "CoreAvatar",
+      "prefix": "CoreAvatar",
+      "body": [
+        "<CoreAvatar>",
+        "\t$1",
+        "</CoreAvatar>"
+      ]
+    },
+    "CoreBackdrop": {
+      "key": "CoreBackdrop",
+      "prefix": "CoreBackdrop",
+      "body": [
+        "<CoreBackdrop>",
+        "\t$1",
+        "</CoreBackdrop>"
+      ]
+    },
+    "CoreBadge": {
+      "key": "CoreBadge",
+      "prefix": "CoreBadge",
+      "body": [
+        "<CoreBadge>",
+        "\t$1",
+        "</CoreBadge>"
+      ]
+    },
+    "CoreBox": {
+      "key": "CoreBox",
+      "prefix": "CoreBox",
+      "body": [
+        "<CoreBox>",
+        "\t$1",
+        "</CoreBox>"
+      ]
+    },
+    "CoreButton": {
+      "key": "CoreButton",
+      "prefix": "CoreButton",
+      "body": [
+        "<CoreButton>",
+        "\t$1",
+        "</CoreButton>"
+      ]
+    },
+    "CoreCard": {
+      "key": "CoreCard",
+      "prefix": "CoreCard",
+      "body": [
+        "<CoreCard>",
+        "\t$1",
+        "</CoreCard>"
+      ]
+    },
+    "CoreCardActionArea": {
+      "key": "CoreCardActionArea",
+      "prefix": "CoreCardActionArea",
+      "body": [
+        "<CoreCardActionArea>",
+        "\t$1",
+        "</CoreCardActionArea>"
+      ]
+    },
+    "CoreCardActions": {
+      "key": "CoreCardActions",
+      "prefix": "CoreCardActions",
+      "body": [
+        "<CoreCardActions>",
+        "\t$1",
+        "</CoreCardActions>"
+      ]
+    },
+    "CoreCardContent": {
+      "key": "CoreCardContent",
+      "prefix": "CoreCardContent",
+      "body": [
+        "<CoreCardContent>",
+        "\t$1",
+        "</CoreCardContent>"
+      ]
+    },
+    "CoreCardHeader": {
+      "key": "CoreCardHeader",
+      "prefix": "CoreCardHeader",
+      "body": [
+        "<CoreCardHeader>",
+        "\t$1",
+        "</CoreCardHeader>"
+      ]
+    },
+    "CoreCardMedia": {
+      "key": "CoreCardMedia",
+      "prefix": "CoreCardMedia",
+      "body": [
+        "<CoreCardMedia>",
+        "\t$1",
+        "</CoreCardMedia>"
+      ]
+    },
+    "CoreCheckbox": {
+      "key": "CoreCheckbox",
+      "prefix": "CoreCheckbox",
+      "body": [
+        "<CoreCheckbox>",
+        "\t$1",
+        "</CoreCheckbox>"
+      ]
+    },
+    "CoreChip": {
+      "key": "CoreChip",
+      "prefix": "CoreChip",
+      "body": [
+        "<CoreChip>",
+        "\t$1",
+        "</CoreChip>"
+      ]
+    },
+    "CoreCircularProgress": {
+      "key": "CoreCircularProgress",
+      "prefix": "CoreCircularProgress",
+      "body": [
+        "<CoreCircularProgress>",
+        "\t$1",
+        "</CoreCircularProgress>"
+      ]
+    },
+    "CoreCollapse": {
+      "key": "CoreCollapse",
+      "prefix": "CoreCollapse",
+      "body": [
+        "<CoreCollapse>",
+        "\t$1",
+        "</CoreCollapse>"
+      ]
+    },
+    "CoreConfirmPassword": {
+      "key": "CoreConfirmPassword",
+      "prefix": "CoreConfirmPassword",
+      "body": [
+        "<CoreConfirmPassword>",
+        "\t$1",
+        "</CoreConfirmPassword>"
+      ]
+    },
+    "CoreConfirmPasswordField": {
+      "key": "CoreConfirmPasswordField",
+      "prefix": "CoreConfirmPasswordField",
+      "body": [
+        "<CoreConfirmPasswordField>",
+        "\t$1",
+        "</CoreConfirmPasswordField>"
+      ]
+    },
+    "CoreContainedButton": {
+      "key": "CoreContainedButton",
+      "prefix": "CoreContainedButton",
+      "body": [
+        "<CoreContainedButton>",
+        "\t$1",
+        "</CoreContainedButton>"
+      ]
+    },
+    "CoreContainer": {
+      "key": "CoreContainer",
+      "prefix": "CoreContainer",
+      "body": [
+        "<CoreContainer>",
+        "\t$1",
+        "</CoreContainer>"
+      ]
+    },
+    "CoreCustomTabs": {
+      "key": "CoreCustomTabs",
+      "prefix": "CoreCustomTabs",
+      "body": [
+        "<CoreCustomTabs>",
+        "\t$1",
+        "</CoreCustomTabs>"
+      ]
+    },
+    "CoreDataTable": {
+      "key": "CoreDataTable",
+      "prefix": "CoreDataTable",
+      "body": [
+        "<CoreDataTable>",
+        "\t$1",
+        "</CoreDataTable>"
+      ]
+    },
+    "CoreDataTableBody": {
+      "key": "CoreDataTableBody",
+      "prefix": "CoreDataTableBody",
+      "body": [
+        "<CoreDataTableBody>",
+        "\t$1",
+        "</CoreDataTableBody>"
+      ]
+    },
+    "CoreDataTableDetailsPane": {
+      "key": "CoreDataTableDetailsPane",
+      "prefix": "CoreDataTableDetailsPane",
+      "body": [
+        "<CoreDataTableDetailsPane>",
+        "\t$1",
+        "</CoreDataTableDetailsPane>"
+      ]
+    },
+    "CoreDataTableFooter": {
+      "key": "CoreDataTableFooter",
+      "prefix": "CoreDataTableFooter",
+      "body": [
+        "<CoreDataTableFooter>",
+        "\t$1",
+        "</CoreDataTableFooter>"
+      ]
+    },
+    "CoreDataTableHead": {
+      "key": "CoreDataTableHead",
+      "prefix": "CoreDataTableHead",
+      "body": [
+        "<CoreDataTableHead>",
+        "\t$1",
+        "</CoreDataTableHead>"
+      ]
+    },
+    "CoreDataTableRow": {
+      "key": "CoreDataTableRow",
+      "prefix": "CoreDataTableRow",
+      "body": [
+        "<CoreDataTableRow>",
+        "\t$1",
+        "</CoreDataTableRow>"
+      ]
+    },
+    "CoreDataTableRowActionPopover": {
+      "key": "CoreDataTableRowActionPopover",
+      "prefix": "CoreDataTableRowActionPopover",
+      "body": [
+        "<CoreDataTableRowActionPopover>",
+        "\t$1",
+        "</CoreDataTableRowActionPopover>"
+      ]
+    },
+    "CoreDataTableRowContent": {
+      "key": "CoreDataTableRowContent",
+      "prefix": "CoreDataTableRowContent",
+      "body": [
+        "<CoreDataTableRowContent>",
+        "\t$1",
+        "</CoreDataTableRowContent>"
+      ]
+    },
+    "CoreDataTableRowSummary": {
+      "key": "CoreDataTableRowSummary",
+      "prefix": "CoreDataTableRowSummary",
+      "body": [
+        "<CoreDataTableRowSummary>",
+        "\t$1",
+        "</CoreDataTableRowSummary>"
+      ]
+    },
+    "CoreDataTableToolbar": {
+      "key": "CoreDataTableToolbar",
+      "prefix": "CoreDataTableToolbar",
+      "body": [
+        "<CoreDataTableToolbar>",
+        "\t$1",
+        "</CoreDataTableToolbar>"
+      ]
+    },
+    "CoreDateRangepicker": {
+      "key": "CoreDateRangepicker",
+      "prefix": "CoreDateRangepicker",
+      "body": [
+        "<CoreDateRangepicker>",
+        "\t$1",
+        "</CoreDateRangepicker>"
+      ]
+    },
+    "CoreDateTimePicker": {
+      "key": "CoreDateTimePicker",
+      "prefix": "CoreDateTimePicker",
+      "body": [
+        "<CoreDateTimePicker>",
+        "\t$1",
+        "</CoreDateTimePicker>"
+      ]
+    },
+    "CoreDateTimeRangePicker": {
+      "key": "CoreDateTimeRangePicker",
+      "prefix": "CoreDateTimeRangePicker",
+      "body": [
+        "<CoreDateTimeRangePicker>",
+        "\t$1",
+        "</CoreDateTimeRangePicker>"
+      ]
+    },
+    "CoreDatepicker": {
+      "key": "CoreDatepicker",
+      "prefix": "CoreDatepicker",
+      "body": [
+        "<CoreDatepicker>",
+        "\t$1",
+        "</CoreDatepicker>"
+      ]
+    },
+    "CoreDialog": {
+      "key": "CoreDialog",
+      "prefix": "CoreDialog",
+      "body": [
+        "<CoreDialog>",
+        "\t$1",
+        "</CoreDialog>"
+      ]
+    },
+    "CoreDivider": {
+      "key": "CoreDivider",
+      "prefix": "CoreDivider",
+      "body": [
+        "<CoreDivider>",
+        "\t$1",
+        "</CoreDivider>"
+      ]
+    },
+    "CoreDrawer": {
+      "key": "CoreDrawer",
+      "prefix": "CoreDrawer",
+      "body": [
+        "<CoreDrawer>",
+        "\t$1",
+        "</CoreDrawer>"
+      ]
+    },
+    "CoreEditForm": {
+      "key": "CoreEditForm",
+      "prefix": "CoreEditForm",
+      "body": [
+        "<CoreEditForm>",
+        "\t$1",
+        "</CoreEditForm>"
+      ]
+    },
+    "CoreEmailLink": {
+      "key": "CoreEmailLink",
+      "prefix": "CoreEmailLink",
+      "body": [
+        "<CoreEmailLink>",
+        "\t$1",
+        "</CoreEmailLink>"
+      ]
+    },
+    "CoreEmailOrPhoneLink": {
+      "key": "CoreEmailOrPhoneLink",
+      "prefix": "CoreEmailOrPhoneLink",
+      "body": [
+        "<CoreEmailOrPhoneLink>",
+        "\t$1",
+        "</CoreEmailOrPhoneLink>"
+      ]
+    },
+    "CoreFab": {
+      "key": "CoreFab",
+      "prefix": "CoreFab",
+      "body": [
+        "<CoreFab>",
+        "\t$1",
+        "</CoreFab>"
+      ]
+    },
+    "CoreFade": {
+      "key": "CoreFade",
+      "prefix": "CoreFade",
+      "body": [
+        "<CoreFade>",
+        "\t$1",
+        "</CoreFade>"
+      ]
+    },
+    "CoreFieldButton": {
+      "key": "CoreFieldButton",
+      "prefix": "CoreFieldButton",
+      "body": [
+        "<CoreFieldButton>",
+        "\t$1",
+        "</CoreFieldButton>"
+      ]
+    },
+    "CoreFilePicker": {
+      "key": "CoreFilePicker",
+      "prefix": "CoreFilePicker",
+      "body": [
+        "<CoreFilePicker>",
+        "\t$1",
+        "</CoreFilePicker>"
+      ]
+    },
+    "CoreFlatList": {
+      "key": "CoreFlatList",
+      "prefix": "CoreFlatList",
+      "body": [
+        "<CoreFlatList>",
+        "\t$1",
+        "</CoreFlatList>"
+      ]
+    },
+    "CoreFooter": {
+      "key": "CoreFooter",
+      "prefix": "CoreFooter",
+      "body": [
+        "<CoreFooter>",
+        "\t$1",
+        "</CoreFooter>"
+      ]
+    },
+    "CoreForm": {
+      "key": "CoreForm",
+      "prefix": "CoreForm",
+      "body": [
+        "<CoreForm>",
+        "\t$1",
+        "</CoreForm>"
+      ]
+    },
+    "CoreFormButton": {
+      "key": "CoreFormButton",
+      "prefix": "CoreFormButton",
+      "body": [
+        "<CoreFormButton>",
+        "\t$1",
+        "</CoreFormButton>"
+      ]
+    },
+    "CoreFormContainer": {
+      "key": "CoreFormContainer",
+      "prefix": "CoreFormContainer",
+      "body": [
+        "<CoreFormContainer>",
+        "\t$1",
+        "</CoreFormContainer>"
+      ]
+    },
+    "CoreFormControl": {
+      "key": "CoreFormControl",
+      "prefix": "CoreFormControl",
+      "body": [
+        "<CoreFormControl>",
+        "\t$1",
+        "</CoreFormControl>"
+      ]
+    },
+    "CoreFormDialogs": {
+      "key": "CoreFormDialogs",
+      "prefix": "CoreFormDialogs",
+      "body": [
+        "<CoreFormDialogs>",
+        "\t$1",
+        "</CoreFormDialogs>"
+      ]
+    },
+    "CoreFormErrorText": {
+      "key": "CoreFormErrorText",
+      "prefix": "CoreFormErrorText",
+      "body": [
+        "<CoreFormErrorText>",
+        "\t$1",
+        "</CoreFormErrorText>"
+      ]
+    },
+    "CoreFormField": {
+      "key": "CoreFormField",
+      "prefix": "CoreFormField",
+      "body": [
+        "<CoreFormField>",
+        "\t$1",
+        "</CoreFormField>"
+      ]
+    },
+    "CoreFormGroup": {
+      "key": "CoreFormGroup",
+      "prefix": "CoreFormGroup",
+      "body": [
+        "<CoreFormGroup>",
+        "\t$1",
+        "</CoreFormGroup>"
+      ]
+    },
+    "CoreFormGroupLabel": {
+      "key": "CoreFormGroupLabel",
+      "prefix": "CoreFormGroupLabel",
+      "body": [
+        "<CoreFormGroupLabel>",
+        "\t$1",
+        "</CoreFormGroupLabel>"
+      ]
+    },
+    "CoreFormHeader": {
+      "key": "CoreFormHeader",
+      "prefix": "CoreFormHeader",
+      "body": [
+        "<CoreFormHeader>",
+        "\t$1",
+        "</CoreFormHeader>"
+      ]
+    },
+    "CoreFormHeaderActions": {
+      "key": "CoreFormHeaderActions",
+      "prefix": "CoreFormHeaderActions",
+      "body": [
+        "<CoreFormHeaderActions>",
+        "\t$1",
+        "</CoreFormHeaderActions>"
+      ]
+    },
+    "CoreFormHelperText": {
+      "key": "CoreFormHelperText",
+      "prefix": "CoreFormHelperText",
+      "body": [
+        "<CoreFormHelperText>",
+        "\t$1",
+        "</CoreFormHelperText>"
+      ]
+    },
+    "CoreFormLabelCheckbox": {
+      "key": "CoreFormLabelCheckbox",
+      "prefix": "CoreFormLabelCheckbox",
+      "body": [
+        "<CoreFormLabelCheckbox>",
+        "\t$1",
+        "</CoreFormLabelCheckbox>"
+      ]
+    },
+    "CoreGoogleButton": {
+      "key": "CoreGoogleButton",
+      "prefix": "CoreGoogleButton",
+      "body": [
+        "<CoreGoogleButton>",
+        "\t$1",
+        "</CoreGoogleButton>"
+      ]
+    },
+    "CoreGrid": {
+      "key": "CoreGrid",
+      "prefix": "CoreGrid",
+      "body": [
+        "<CoreGrid>",
+        "\t$1",
+        "</CoreGrid>"
+      ]
+    },
+    "CoreGridItem": {
+      "key": "CoreGridItem",
+      "prefix": "CoreGridItem",
+      "body": [
+        "<CoreGridItem>",
+        "\t$1",
+        "</CoreGridItem>"
+      ]
+    },
+    "CoreH": {
+      "key": "CoreH",
+      "prefix": "CoreH",
+      "body": [
+        "<CoreH>",
+        "\t$1",
+        "</CoreH>"
+      ]
+    },
+    "CoreH1": {
+      "key": "CoreH1",
+      "prefix": "CoreH1",
+      "body": [
+        "<CoreH1>",
+        "\t$1",
+        "</CoreH1>"
+      ]
+    },
+    "CoreH2": {
+      "key": "CoreH2",
+      "prefix": "CoreH2",
+      "body": [
+        "<CoreH2>",
+        "\t$1",
+        "</CoreH2>"
+      ]
+    },
+    "CoreH3": {
+      "key": "CoreH3",
+      "prefix": "CoreH3",
+      "body": [
+        "<CoreH3>",
+        "\t$1",
+        "</CoreH3>"
+      ]
+    },
+    "CoreH4": {
+      "key": "CoreH4",
+      "prefix": "CoreH4",
+      "body": [
+        "<CoreH4>",
+        "\t$1",
+        "</CoreH4>"
+      ]
+    },
+    "CoreH5": {
+      "key": "CoreH5",
+      "prefix": "CoreH5",
+      "body": [
+        "<CoreH5>",
+        "\t$1",
+        "</CoreH5>"
+      ]
+    },
+    "CoreH6": {
+      "key": "CoreH6",
+      "prefix": "CoreH6",
+      "body": [
+        "<CoreH6>",
+        "\t$1",
+        "</CoreH6>"
+      ]
+    },
+    "CoreIcon": {
+      "key": "CoreIcon",
+      "prefix": "CoreIcon",
+      "body": [
+        "<CoreIcon>",
+        "\t$1",
+        "</CoreIcon>"
+      ]
+    },
+    "CoreIconButton": {
+      "key": "CoreIconButton",
+      "prefix": "CoreIconButton",
+      "body": [
+        "<CoreIconButton>",
+        "\t$1",
+        "</CoreIconButton>"
+      ]
+    },
+    "CoreIconText": {
+      "key": "CoreIconText",
+      "prefix": "CoreIconText",
+      "body": [
+        "<CoreIconText>",
+        "\t$1",
+        "</CoreIconText>"
+      ]
+    },
+    "CoreImage": {
+      "key": "CoreImage",
+      "prefix": "CoreImage",
+      "body": [
+        "<CoreImage>",
+        "\t$1",
+        "</CoreImage>"
+      ]
+    },
+    "CoreImageBackground": {
+      "key": "CoreImageBackground",
+      "prefix": "CoreImageBackground",
+      "body": [
+        "<CoreImageBackground>",
+        "\t$1",
+        "</CoreImageBackground>"
+      ]
+    },
+    "CoreImagePicker": {
+      "key": "CoreImagePicker",
+      "prefix": "CoreImagePicker",
+      "body": [
+        "<CoreImagePicker>",
+        "\t$1",
+        "</CoreImagePicker>"
+      ]
+    },
+    "CoreInput": {
+      "key": "CoreInput",
+      "prefix": "CoreInput",
+      "body": [
+        "<CoreInput>",
+        "\t$1",
+        "</CoreInput>"
+      ]
+    },
+    "CoreInputAdornment": {
+      "key": "CoreInputAdornment",
+      "prefix": "CoreInputAdornment",
+      "body": [
+        "<CoreInputAdornment>",
+        "\t$1",
+        "</CoreInputAdornment>"
+      ]
+    },
+    "CoreInputLabel": {
+      "key": "CoreInputLabel",
+      "prefix": "CoreInputLabel",
+      "body": [
+        "<CoreInputLabel>",
+        "\t$1",
+        "</CoreInputLabel>"
+      ]
+    },
+    "CoreInputPassword": {
+      "key": "CoreInputPassword",
+      "prefix": "CoreInputPassword",
+      "body": [
+        "<CoreInputPassword>",
+        "\t$1",
+        "</CoreInputPassword>"
+      ]
+    },
+    "CoreJSONEditor": {
+      "key": "CoreJSONEditor",
+      "prefix": "CoreJSONEditor",
+      "body": [
+        "<CoreJSONEditor>",
+        "\t$1",
+        "</CoreJSONEditor>"
+      ]
+    },
+    "CoreJSONInput": {
+      "key": "CoreJSONInput",
+      "prefix": "CoreJSONInput",
+      "body": [
+        "<CoreJSONInput>",
+        "\t$1",
+        "</CoreJSONInput>"
+      ]
+    },
+    "CoreLabel": {
+      "key": "CoreLabel",
+      "prefix": "CoreLabel",
+      "body": [
+        "<CoreLabel>",
+        "\t$1",
+        "</CoreLabel>"
+      ]
+    },
+    "CoreLinearProgress": {
+      "key": "CoreLinearProgress",
+      "prefix": "CoreLinearProgress",
+      "body": [
+        "<CoreLinearProgress>",
+        "\t$1",
+        "</CoreLinearProgress>"
+      ]
+    },
+    "CoreLink": {
+      "key": "CoreLink",
+      "prefix": "CoreLink",
+      "body": [
+        "<CoreLink>",
+        "\t$1",
+        "</CoreLink>"
+      ]
+    },
+    "CoreList": {
+      "key": "CoreList",
+      "prefix": "CoreList",
+      "body": [
+        "<CoreList>",
+        "\t$1",
+        "</CoreList>"
+      ]
+    },
+    "CoreListItem": {
+      "key": "CoreListItem",
+      "prefix": "CoreListItem",
+      "body": [
+        "<CoreListItem>",
+        "\t$1",
+        "</CoreListItem>"
+      ]
+    },
+    "CoreListItemButton": {
+      "key": "CoreListItemButton",
+      "prefix": "CoreListItemButton",
+      "body": [
+        "<CoreListItemButton>",
+        "\t$1",
+        "</CoreListItemButton>"
+      ]
+    },
+    "CoreListItemIcon": {
+      "key": "CoreListItemIcon",
+      "prefix": "CoreListItemIcon",
+      "body": [
+        "<CoreListItemIcon>",
+        "\t$1",
+        "</CoreListItemIcon>"
+      ]
+    },
+    "CoreListItemText": {
+      "key": "CoreListItemText",
+      "prefix": "CoreListItemText",
+      "body": [
+        "<CoreListItemText>",
+        "\t$1",
+        "</CoreListItemText>"
+      ]
+    },
+    "CoreLoginDetails": {
+      "key": "CoreLoginDetails",
+      "prefix": "CoreLoginDetails",
+      "body": [
+        "<CoreLoginDetails>",
+        "\t$1",
+        "</CoreLoginDetails>"
+      ]
+    },
+    "CoreMarkdownViewer": {
+      "key": "CoreMarkdownViewer",
+      "prefix": "CoreMarkdownViewer",
+      "body": [
+        "<CoreMarkdownViewer>",
+        "\t$1",
+        "</CoreMarkdownViewer>"
+      ]
+    },
+    "CoreMedicineSelector": {
+      "key": "CoreMedicineSelector",
+      "prefix": "CoreMedicineSelector",
+      "body": [
+        "<CoreMedicineSelector>",
+        "\t$1",
+        "</CoreMedicineSelector>"
+      ]
+    },
+    "CoreMenu": {
+      "key": "CoreMenu",
+      "prefix": "CoreMenu",
+      "body": [
+        "<CoreMenu>",
+        "\t$1",
+        "</CoreMenu>"
+      ]
+    },
+    "CoreMenuItem": {
+      "key": "CoreMenuItem",
+      "prefix": "CoreMenuItem",
+      "body": [
+        "<CoreMenuItem>",
+        "\t$1",
+        "</CoreMenuItem>"
+      ]
+    },
+    "CoreMenuList": {
+      "key": "CoreMenuList",
+      "prefix": "CoreMenuList",
+      "body": [
+        "<CoreMenuList>",
+        "\t$1",
+        "</CoreMenuList>"
+      ]
+    },
+    "CoreModal": {
+      "key": "CoreModal",
+      "prefix": "CoreModal",
+      "body": [
+        "<CoreModal>",
+        "\t$1",
+        "</CoreModal>"
+      ]
+    },
+    "CoreMultiTimeRangePicker": {
+      "key": "CoreMultiTimeRangePicker",
+      "prefix": "CoreMultiTimeRangePicker",
+      "body": [
+        "<CoreMultiTimeRangePicker>",
+        "\t$1",
+        "</CoreMultiTimeRangePicker>"
+      ]
+    },
+    "CoreNavigation": {
+      "key": "CoreNavigation",
+      "prefix": "CoreNavigation",
+      "body": [
+        "<CoreNavigation>",
+        "\t$1",
+        "</CoreNavigation>"
+      ]
+    },
+    "CoreOtpInput": {
+      "key": "CoreOtpInput",
+      "prefix": "CoreOtpInput",
+      "body": [
+        "<CoreOtpInput>",
+        "\t$1",
+        "</CoreOtpInput>"
+      ]
+    },
+    "CoreOutlinedButton": {
+      "key": "CoreOutlinedButton",
+      "prefix": "CoreOutlinedButton",
+      "body": [
+        "<CoreOutlinedButton>",
+        "\t$1",
+        "</CoreOutlinedButton>"
+      ]
+    },
+    "CorePaper": {
+      "key": "CorePaper",
+      "prefix": "CorePaper",
+      "body": [
+        "<CorePaper>",
+        "\t$1",
+        "</CorePaper>"
+      ]
+    },
+    "CorePhone": {
+      "key": "CorePhone",
+      "prefix": "CorePhone",
+      "body": [
+        "<CorePhone>",
+        "\t$1",
+        "</CorePhone>"
+      ]
+    },
+    "CorePhoneLink": {
+      "key": "CorePhoneLink",
+      "prefix": "CorePhoneLink",
+      "body": [
+        "<CorePhoneLink>",
+        "\t$1",
+        "</CorePhoneLink>"
+      ]
+    },
+    "CorePopover": {
+      "key": "CorePopover",
+      "prefix": "CorePopover",
+      "body": [
+        "<CorePopover>",
+        "\t$1",
+        "</CorePopover>"
+      ]
+    },
+    "CoreProfilePopOver": {
+      "key": "CoreProfilePopOver",
+      "prefix": "CoreProfilePopOver",
+      "body": [
+        "<CoreProfilePopOver>",
+        "\t$1",
+        "</CoreProfilePopOver>"
+      ]
+    },
+    "CoreRating": {
+      "key": "CoreRating",
+      "prefix": "CoreRating",
+      "body": [
+        "<CoreRating>",
+        "\t$1",
+        "</CoreRating>"
+      ]
+    },
+    "CoreReactSelectInput": {
+      "key": "CoreReactSelectInput",
+      "prefix": "CoreReactSelectInput",
+      "body": [
+        "<CoreReactSelectInput>",
+        "\t$1",
+        "</CoreReactSelectInput>"
+      ]
+    },
+    "CoreRequestProgressBar": {
+      "key": "CoreRequestProgressBar",
+      "prefix": "CoreRequestProgressBar",
+      "body": [
+        "<CoreRequestProgressBar>",
+        "\t$1",
+        "</CoreRequestProgressBar>"
+      ]
+    },
+    "CoreResponsiveButton": {
+      "key": "CoreResponsiveButton",
+      "prefix": "CoreResponsiveButton",
+      "body": [
+        "<CoreResponsiveButton>",
+        "\t$1",
+        "</CoreResponsiveButton>"
+      ]
+    },
+    "CoreRichTextEditor": {
+      "key": "CoreRichTextEditor",
+      "prefix": "CoreRichTextEditor",
+      "body": [
+        "<CoreRichTextEditor>",
+        "\t$1",
+        "</CoreRichTextEditor>"
+      ]
+    },
+    "CoreRightDrawer": {
+      "key": "CoreRightDrawer",
+      "prefix": "CoreRightDrawer",
+      "body": [
+        "<CoreRightDrawer>",
+        "\t$1",
+        "</CoreRightDrawer>"
+      ]
+    },
+    "CoreScrollTop": {
+      "key": "CoreScrollTop",
+      "prefix": "CoreScrollTop",
+      "body": [
+        "<CoreScrollTop>",
+        "\t$1",
+        "</CoreScrollTop>"
+      ]
+    },
+    "CoreSection": {
+      "key": "CoreSection",
+      "prefix": "CoreSection",
+      "body": [
+        "<CoreSection>",
+        "\t$1",
+        "</CoreSection>"
+      ]
+    },
+    "CoreSelect": {
+      "key": "CoreSelect",
+      "prefix": "CoreSelect",
+      "body": [
+        "<CoreSelect>",
+        "\t$1",
+        "</CoreSelect>"
+      ]
+    },
+    "CoreSkeleton": {
+      "key": "CoreSkeleton",
+      "prefix": "CoreSkeleton",
+      "body": [
+        "<CoreSkeleton>",
+        "\t$1",
+        "</CoreSkeleton>"
+      ]
+    },
+    "CoreSnackbar": {
+      "key": "CoreSnackbar",
+      "prefix": "CoreSnackbar",
+      "body": [
+        "<CoreSnackbar>",
+        "\t$1",
+        "</CoreSnackbar>"
+      ]
+    },
+    "CoreSpan": {
+      "key": "CoreSpan",
+      "prefix": "CoreSpan",
+      "body": [
+        "<CoreSpan>",
+        "\t$1",
+        "</CoreSpan>"
+      ]
+    },
+    "CoreSpecificForm": {
+      "key": "CoreSpecificForm",
+      "prefix": "CoreSpecificForm",
+      "body": [
+        "<CoreSpecificForm>",
+        "\t$1",
+        "</CoreSpecificForm>"
+      ]
+    },
+    "CoreStack": {
+      "key": "CoreStack",
+      "prefix": "CoreStack",
+      "body": [
+        "<CoreStack>",
+        "\t$1",
+        "</CoreStack>"
+      ]
+    },
+    "CoreSwitch": {
+      "key": "CoreSwitch",
+      "prefix": "CoreSwitch",
+      "body": [
+        "<CoreSwitch>",
+        "\t$1",
+        "</CoreSwitch>"
+      ]
+    },
+    "CoreTab": {
+      "key": "CoreTab",
+      "prefix": "CoreTab",
+      "body": [
+        "<CoreTab>",
+        "\t$1",
+        "</CoreTab>"
+      ]
+    },
+    "CoreTabHead": {
+      "key": "CoreTabHead",
+      "prefix": "CoreTabHead",
+      "body": [
+        "<CoreTabHead>",
+        "\t$1",
+        "</CoreTabHead>"
+      ]
+    },
+    "CoreTabPanel": {
+      "key": "CoreTabPanel",
+      "prefix": "CoreTabPanel",
+      "body": [
+        "<CoreTabPanel>",
+        "\t$1",
+        "</CoreTabPanel>"
+      ]
+    },
+    "CoreTable": {
+      "key": "CoreTable",
+      "prefix": "CoreTable",
+      "body": [
+        "<CoreTable>",
+        "\t$1",
+        "</CoreTable>"
+      ]
+    },
+    "CoreTableAction": {
+      "key": "CoreTableAction",
+      "prefix": "CoreTableAction",
+      "body": [
+        "<CoreTableAction>",
+        "\t$1",
+        "</CoreTableAction>"
+      ]
+    },
+    "CoreTableBody": {
+      "key": "CoreTableBody",
+      "prefix": "CoreTableBody",
+      "body": [
+        "<CoreTableBody>",
+        "\t$1",
+        "</CoreTableBody>"
+      ]
+    },
+    "CoreTableBodyCell": {
+      "key": "CoreTableBodyCell",
+      "prefix": "CoreTableBodyCell",
+      "body": [
+        "<CoreTableBodyCell>",
+        "\t$1",
+        "</CoreTableBodyCell>"
+      ]
+    },
+    "CoreTableBulkAction": {
+      "key": "CoreTableBulkAction",
+      "prefix": "CoreTableBulkAction",
+      "body": [
+        "<CoreTableBulkAction>",
+        "\t$1",
+        "</CoreTableBulkAction>"
+      ]
+    },
+    "CoreTableCell": {
+      "key": "CoreTableCell",
+      "prefix": "CoreTableCell",
+      "body": [
+        "<CoreTableCell>",
+        "\t$1",
+        "</CoreTableCell>"
+      ]
+    },
+    "CoreTableCollapsible": {
+      "key": "CoreTableCollapsible",
+      "prefix": "CoreTableCollapsible",
+      "body": [
+        "<CoreTableCollapsible>",
+        "\t$1",
+        "</CoreTableCollapsible>"
+      ]
+    },
+    "CoreTableContainer": {
+      "key": "CoreTableContainer",
+      "prefix": "CoreTableContainer",
+      "body": [
+        "<CoreTableContainer>",
+        "\t$1",
+        "</CoreTableContainer>"
+      ]
+    },
+    "CoreTableFilter": {
+      "key": "CoreTableFilter",
+      "prefix": "CoreTableFilter",
+      "body": [
+        "<CoreTableFilter>",
+        "\t$1",
+        "</CoreTableFilter>"
+      ]
+    },
+    "CoreTableFooter": {
+      "key": "CoreTableFooter",
+      "prefix": "CoreTableFooter",
+      "body": [
+        "<CoreTableFooter>",
+        "\t$1",
+        "</CoreTableFooter>"
+      ]
+    },
+    "CoreTableHead": {
+      "key": "CoreTableHead",
+      "prefix": "CoreTableHead",
+      "body": [
+        "<CoreTableHead>",
+        "\t$1",
+        "</CoreTableHead>"
+      ]
+    },
+    "CoreTableHeadCell": {
+      "key": "CoreTableHeadCell",
+      "prefix": "CoreTableHeadCell",
+      "body": [
+      "<CoreTableHeadCell>",
+      "\t$1",
+      "</CoreTableHeadCell>"
+      ]
+    },
+    "CoreTableHeadRow": {
+      "key": "CoreTableHeadRow",
+      "prefix": "CoreTableHeadRow",
+      "body": [
+        "<CoreTableHeadRow>",
+        "\t$1",
+        "</CoreTableHeadRow>"
+      ]
+    },
+    "CoreTablePagination": {
+      "key": "CoreTablePagination",
+      "prefix": "CoreTablePagination",
+      "body": [
+        "<CoreTablePagination>",
+        "\t$1",
+        "</CoreTablePagination>"
+      ]
+    },
+    "CoreTableRow": {
+      "key": "CoreTableRow",
+      "prefix": "CoreTableRow",
+      "body": [
+        "<CoreTableRow>",
+        "\t$1",
+        "</CoreTableRow>"
+      ]
+    },
+    "CoreTableSkeleton": {
+      "key": "CoreTableSkeleton",
+      "prefix": "CoreTableSkeleton",
+      "body": [
+        "<CoreTableSkeleton>",
+        "\t$1",
+        "</CoreTableSkeleton>"
+      ]
+    },
+    "CoreTableSortLabel": {
+      "key": "CoreTableSortLabel",
+      "prefix": "CoreTableSortLabel",
+      "body": [
+        "<CoreTableSortLabel>",
+        "\t$1",
+        "</CoreTableSortLabel>"
+      ]
+    },
+    "CoreTableToolBar": {
+      "key": "CoreTableToolBar",
+      "prefix": "CoreTableToolBar",
+      "body": [
+        "<CoreTableToolBar>",
+        "\t$1",
+        "</CoreTableToolBar>"
+      ]
+    },
+    "CoreTabs": {
+      "key": "CoreTabs",
+      "prefix": "CoreTabs",
+      "body": [
+        "<CoreTabs>",
+        "\t$1",
+        "</CoreTabs>"
+      ]
+    },
+    "CoreTermsPrivacyLink": {
+      "key": "CoreTermsPrivacyLink",
+      "prefix": "CoreTermsPrivacyLink",
+      "body": [
+        "<CoreTermsPrivacyLink>",
+        "\t$1",
+        "</CoreTermsPrivacyLink>"
+      ]
+    },
+    "CoreTextButton": {
+      "key": "CoreTextButton",
+      "prefix": "CoreTextButton",
+      "body": [
+        "<CoreTextButton>",
+        "\t$1",
+        "</CoreTextButton>"
+      ]
+    },
+    "CoreTextField": {
+      "key": "CoreTextField",
+      "prefix": "CoreTextField",
+      "body": [
+        "<CoreTextField>",
+        "\t$1",
+        "</CoreTextField>"
+      ]
+    },
+    "CoreTextarea": {
+      "key": "CoreTextarea",
+      "prefix": "CoreTextarea",
+      "body": [
+        "<CoreTextarea>",
+        "\t$1",
+        "</CoreTextarea>"
+      ]
+    },
+    "CoreTimePicker": {
+      "key": "CoreTimePicker",
+      "prefix": "CoreTimePicker",
+      "body": [
+        "<CoreTimePicker>",
+        "\t$1",
+        "</CoreTimePicker>"
+      ]
+    },
+    "CoreTimeRangePicker": {
+      "key": "CoreTimeRangePicker",
+      "prefix": "CoreTimeRangePicker",
+      "body": [
+        "<CoreTimeRangePicker>",
+        "\t$1",
+        "</CoreTimeRangePicker>"
+      ]
+    },
+    "CoreToolbar": {
+      "key": "CoreToolbar",
+      "prefix": "CoreToolbar",
+      "body": [
+        "<CoreToolbar>",
+        "\t$1",
+        "</CoreToolbar>"
+      ]
+    },
+    "CoreTooltip": {
+      "key": "CoreTooltip",
+      "prefix": "CoreTooltip",
+      "body": [
+        "<CoreTooltip>",
+        "\t$1",
+        "</CoreTooltip>"
+      ]
+    },
+    "CoreTypography": {
+      "key": "CoreTypography",
+      "prefix": "CoreTypography",
+      "body": [
+        "<CoreTypography>",
+        "\t$1",
+        "</CoreTypography>"
+      ]
+    },
+    "CoreTypographyBody1": {
+      "key": "CoreTypographyBody1",
+      "prefix": "CoreTypographyBody1",
+      "body": [
+        "<CoreTypographyBody1>",
+        "\t$1",
+        "</CoreTypographyBody1>"
+      ]
+    },
+    "CoreTypographyBody2": {
+      "key": "CoreTypographyBody2",
+      "prefix": "CoreTypographyBody2",
+      "body": [
+        "<CoreTypographyBody2>",
+        "\t$1",
+        "</CoreTypographyBody2>"
+      ]
+    },
+    "CoreTypographyButton": {
+      "key": "CoreTypographyButton",
+      "prefix": "CoreTypographyButton",
+      "body": [
+        "<CoreTypographyButton>",
+        "\t$1",
+        "</CoreTypographyButton>"
+      ]
+    },
+    "CoreTypographyCaption": {
+      "key": "CoreTypographyCaption",
+      "prefix": "CoreTypographyCaption",
+      "body": [
+        "<CoreTypographyCaption>",
+        "\t$1",
+        "</CoreTypographyCaption>"
+      ]
+    },
+    "CoreTypographyOverline": {
+      "key": "CoreTypographyOverline",
+      "prefix": "CoreTypographyOverline",
+      "body": [
+        "<CoreTypographyOverline>",
+        "\t$1",
+        "</CoreTypographyOverline>"
+      ]
+    },
+    "CoreTypographySubtitle1": {
+      "key": "CoreTypographySubtitle1",
+      "prefix": "CoreTypographySubtitle1",
+      "body": [
+        "<CoreTypographySubtitle1>",
+        "\t$1",
+        "</CoreTypographySubtitle1>"
+      ]
+    },
+    "CoreTypographySubtitle2": {
+      "key": "CoreTypographySubtitle2",
+      "prefix": "CoreTypographySubtitle2",
+      "body": [
+        "<CoreTypographySubtitle2>",
+        "\t$1",
+        "</CoreTypographySubtitle2>"
+      ]
+    },
+    "CoreViewField": {
+      "key": "CoreViewField",
+      "prefix": "CoreViewField",
+      "body": [
+        "<CoreViewField>",
+        "\t$1",
+        "</CoreViewField>"
+      ]
+    },
+    "CoreViewForm": {
+      "key": "CoreViewForm",
+      "prefix": "CoreViewForm",
+      "body": [
+        "<CoreViewForm>",
+        "\t$1",
+        "</CoreViewForm>"
+      ]
+    },
+    "DevCoreDataTable": {
+      "key": "DevCoreDataTable",
+      "prefix": "DevCoreDataTable",
+      "body": [
+        "<DevCoreDataTable>",
+        "\t$1",
+        "</DevCoreDataTable>"
+      ]
+    },
+    "ExportData": {
+      "key": "ExportData",
+      "prefix": "ExportData",
+      "body": [
+        "<ExportData>",
+        "\t$1",
+        "</ExportData>"
+      ]
+    },
+    "FilterColumn": {
+      "key": "FilterColumn",
+      "prefix": "FilterColumn",
+      "body": [
+        "<FilterColumn>",
+        "\t$1",
+        "</FilterColumn>"
+      ]
+    },
+    "FilterData": {
+      "key": "FilterData",
+      "prefix": "FilterData",
+      "body": [
+        "<FilterData>",
+        "\t$1",
+        "</FilterData>"
+      ]
+    },
+    "HelpAndSupportPopOver": {
+      "key": "HelpAndSupportPopOver",
+      "prefix": "HelpAndSupportPopOver",
+      "body": [
+        "<HelpAndSupportPopOver>",
+        "\t$1",
+        "</HelpAndSupportPopOver>"
+      ]
+    },
+    "Logout": {
+      "key": "Logout",
+      "prefix": "Logout",
+      "body": [
+        "<Logout>",
+        "\t$1",
+        "</Logout>"
+      ]
+    },
+    "NotificationPopOver": {
+      "key": "NotificationPopOver",
+      "prefix": "NotificationPopOver",
+      "body": [
+        "<NotificationPopOver>",
+        "\t$1",
+        "</NotificationPopOver>"
+      ]
+    },
+    "ParentChildMap": {
+      "key": "ParentChildMap",
+      "prefix": "ParentChildMap",
+      "body": [
+        "<ParentChildMap>",
+        "\t$1",
+        "</ParentChildMap>"
+      ]
+    },
+    "QuickAddPopOver": {
+      "key": "QuickAddPopOver",
+      "prefix": "QuickAddPopOver",
+      "body": [
+        "<QuickAddPopOver>",
+        "\t$1",
+        "</QuickAddPopOver>"
+      ]
+    },
+    "SortTableData": {
+      "key": "SortTableData",
+      "prefix": "SortTableData",
+      "body": [
+        "<SortTableData>",
+        "\t$1",
+        "</SortTableData>"
+      ]
+    },
+    "SplashComponent": {
+      "key": "SplashComponent",
+      "prefix": "SplashComponent",
+      "body": [
+        "<SplashComponent>",
+        "\t$1",
+        "</SplashComponent>"
+      ]
+    },
+    "StatusText": {
+      "key": "StatusText",
+      "prefix": "StatusText",
+      "body": [
+        "<StatusText>",
+        "\t$1",
+        "</StatusText>"
+      ]
+    },
+    "TableDensity": {
+      "key": "TableDensity",
+      "prefix": "TableDensity",
+      "body": [
+        "<TableDensity>",
+        "\t$1",
+        "</TableDensity>"
+      ]
+    },
+    "TableRowAuditData": {
+      "key": "TableRowAuditData",
+      "prefix": "TableRowAuditData",
+      "body": [
+        "<TableRowAuditData>",
+        "\t$1",
+        "</TableRowAuditData>"
+      ]
+    },
+    "UserChip": {
+      "key": "UserChip",
+      "prefix": "UserChip",
+      "body": [
+        "<UserChip>",
+        "\t$1",
+        "</UserChip>"
+      ]
+    },
+    "WrappidComponent": {
+      "key": "WrappidComponent",
+      "prefix": "WrappidComponent",
+      "body": [
+        "<WrappidComponent>",
+        "\t$1",
+        "</WrappidComponent>"
+      ]
+    }
+}
