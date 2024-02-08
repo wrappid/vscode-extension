@@ -14,7 +14,8 @@
   ],
   "activationEvents": [
     "onLanguage:typescript",
-    "onLanguage:javascript"
+    "onLanguage:javascript",
+    "onStartupFinished"
   ],
   "main": "./out/extension.js",
   "scripts": {
@@ -62,11 +63,19 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./snippets/javascript.json"
+        "path": "./snippets/boilerplate.json"
       },
       {
         "language": "typescript",
-        "path": "./snippets/javascript.json"
+        "path": "./snippets/boilerplate.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/coresnippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/coresnippets.json"
       }
     ]
   }
