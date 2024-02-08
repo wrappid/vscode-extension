@@ -5,7 +5,7 @@
   "id": "wrappid-dev",
   "description": "This is a Visual Studio Code (VS Code) extension for the Wrappid framework. The Warppid extension provides features such as code snippets for common Wrappid constructs, and code intelligence with autocompletion to enhance your development experience with Wrappid. To get started, clone the project, install dependencies, compile, and build the extension to generate a .vsix file. The Warppid extension requires Visual Studio Code 1.42 or higher. We welcome contributions and are available for questions or issues at wrappid.framework@gmail.com. For more information, see the Wrappid documentation at [README.md](https://github.com/wrappid/.github/blob/main/profile/README.md).",
   "icon": "logo/logo.png",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.85.0"
   },
