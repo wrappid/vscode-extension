@@ -19,7 +19,7 @@ To get started with the Warppid extension, follow these steps:
 1. After cloning the project from GitHub, open it in your preferred IDE (e.g., Visual Studio Code).
 2. Install all dependencies by running `npm install` in the terminal/command prompt within your IDE.
 3. Execute the command `npm run compile` to generate the necessary JS files.
-4. Build the extension using the command `npm run build`. This will generate a `.vsix` file
+4. Build the extension using the command `vsce package`. This will generate a `.vsix` file
 
 <!-- 1. Install the extension from the Visual Studio Code Marketplace.
 2. Open or create a Wrappid project in VS Code.
