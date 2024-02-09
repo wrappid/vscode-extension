@@ -19,7 +19,6 @@
   ],
   "main": "./out/extension.js",
   "scripts": {
-    "installdeps":"npm i",
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
