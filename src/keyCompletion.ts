@@ -1,5 +1,5 @@
 import * as vscode from 'vscode';
-import * as UtilityClasses from './Keys/Keys.js';
+import UtilityClasses from "@wrappid/styles/utility/UtilityClasses";
 
 function createMethodCompletionItem(methodName: string): vscode.CompletionItem {
     const completionItem = new vscode.CompletionItem(methodName, vscode.CompletionItemKind.Method);
