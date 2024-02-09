@@ -16,11 +16,6 @@ export const keyCompletion = vscode.languages.registerCompletionItemProvider(
 					return undefined;
 				}
 				let completionItems: any[] = [];
-				// if (typeof (UtilityClasses as any)['UtilityClasses'] === 'object') {
-				// 	Object.keys((UtilityClasses as any)['UtilityClasses']).forEach(function (subKey) {
-				// 		completionItems = [...completionItems, createMethodCompletionItem(subKey)];
-				// 	});
-				// };
 
                 for (const key in UtilityClasses) {
                     completionItems = [...completionItems, createMethodCompletionItem(key)];
@@ -52,12 +47,6 @@ export const subKeyCompletion = vscode.languages.registerCompletionItemProvider(
             const keyName = match[1]; 
             
             let completionItems: any[] = [];
-            
-            // if(typeof (UtilityClasses as any)['UtilityClasses'][keyName] === 'object') {
-            //     Object.keys((UtilityClasses as any)['UtilityClasses'][keyName]).forEach((item) => {
-            //         completionItems = [...completionItems, createMethodCompletionItem(item)];
-            //     });
-            // };
 
             for (const key in (UtilityClasses as any)[keyName]) {
                 completionItems = [...completionItems, createMethodCompletionItem(key)];
@@ -90,12 +79,6 @@ export const subSubKeyCompletion = vscode.languages.registerCompletionItemProvid
             const subkeyName = secondMatch[2];
             
             let completionItems: any[] = [];
-            
-            // if(typeof (UtilityClasses as any)['UtilityClasses'][keyName][subkeyName] === 'object') {
-            //     Object.keys((UtilityClasses as any)['UtilityClasses'][keyName][subkeyName]).forEach((item) => {
-            //         completionItems = [...completionItems, createMethodCompletionItem(item)];
-            //     });
-            // };
 
             for (const key in (UtilityClasses as any)[keyName][subkeyName]) {
                 completionItems = [...completionItems, createMethodCompletionItem(key)];
@@ -131,12 +114,6 @@ export const subSubSubKeyCompletion = vscode.languages.registerCompletionItemPro
             const subsubkeyName = thirdMatch[3];
             
             let completionItems: any[] = [];
-                    
-            // if(typeof (UtilityClasses as any)['UtilityClasses'][keyName][subkeyName][subsubkeyName] === 'object') {
-            //     Object.keys((UtilityClasses as any)['UtilityClasses'][keyName][subkeyName][subsubkeyName]).forEach((item) => {
-            //         completionItems = [...completionItems, createMethodCompletionItem(item)];
-            //     });
-            // };
 
             for (const key in (UtilityClasses as any)[keyName][subkeyName][subsubkeyName]) {
                 completionItems = [...completionItems, createMethodCompletionItem(key)];
