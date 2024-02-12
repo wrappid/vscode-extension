@@ -36,10 +36,10 @@
     "@vscode/test-cli": "^0.0.4",
     "@vscode/test-electron": "^2.3.8",
     "eslint": "^8.56.0",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "@wrappid/styles": "^0.0.122"
   },
   "dependencies": {
-    "@wrappid/core": "^0.0.410",
     "@wrappid/styles": "^0.0.122"
   },
   "repository": {
