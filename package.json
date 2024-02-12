@@ -27,6 +27,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
+    "@types/babel__core": "^7.20.5",
     "@types/mocha": "^10.0.6",
     "@types/node": "18.x",
     "@types/vscode": "^1.85.0",
@@ -35,11 +36,11 @@
     "@vscode/test-cli": "^0.0.4",
     "@vscode/test-electron": "^2.3.8",
     "eslint": "^8.56.0",
-    "typescript": "^5.3.3"
+    "typescript": "^4.9.5"
   },
   "dependencies": {
-    "@wrappid/styles": "^0.0.122",
-    "@wrappid/core": "^0.0.410"
+    "@wrappid/core": "^0.0.410",
+    "@wrappid/styles": "^0.0.122"
   },
   "repository": {
     "type": "git",
