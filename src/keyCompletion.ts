@@ -1,5 +1,5 @@
 import * as vscode from 'vscode';
-import * as UtilityClasses from './Keys/Keys.js';
+import * as coreClasses from './Keys/CoreKeys';
 
 function createMethodCompletionItem(methodName: string): vscode.CompletionItem {
     const completionItem = new vscode.CompletionItem(methodName, vscode.CompletionItemKind.Method);
@@ -15,8 +15,8 @@ export const keyCompletion = vscode.languages.registerCompletionItemProvider(
 					return undefined;
 				}
 				let completionItems: any[] = [];
-				if (typeof (UtilityClasses as any)['UtilityClasses'] === 'object') {
-					Object.keys((UtilityClasses as any)['UtilityClasses']).forEach(function (subKey) {
+				if (typeof (coreClasses as any)['coreClasses'] === 'object') {
+					Object.keys((coreClasses as any)['coreClasses']).forEach(function (subKey) {
 						completionItems = [...completionItems, createMethodCompletionItem(subKey)];
 					});
 				};
@@ -48,8 +48,8 @@ export const subKeyCompletion = vscode.languages.registerCompletionItemProvider(
             
             let completionItems: any[] = [];
             
-            if(typeof (UtilityClasses as any)['UtilityClasses'][keyName] === 'object') {
-                Object.keys((UtilityClasses as any)['UtilityClasses'][keyName]).forEach((item) => {
+            if(typeof (coreClasses as any)['coreClasses'][keyName] === 'object') {
+                Object.keys((coreClasses as any)['coreClasses'][keyName]).forEach((item) => {
                     completionItems = [...completionItems, createMethodCompletionItem(item)];
                 });
             };
@@ -82,8 +82,8 @@ export const subSubKeyCompletion = vscode.languages.registerCompletionItemProvid
             
             let completionItems: any[] = [];
             
-            if(typeof (UtilityClasses as any)['UtilityClasses'][keyName][subkeyName] === 'object') {
-                Object.keys((UtilityClasses as any)['UtilityClasses'][keyName][subkeyName]).forEach((item) => {
+            if(typeof (coreClasses as any)['coreClasses'][keyName][subkeyName] === 'object') {
+                Object.keys((coreClasses as any)['coreClasses'][keyName][subkeyName]).forEach((item) => {
                     completionItems = [...completionItems, createMethodCompletionItem(item)];
                 });
             };
@@ -93,7 +93,6 @@ export const subSubKeyCompletion = vscode.languages.registerCompletionItemProvid
     },
     '.' // Triggered whenever a '.' is being typed
 );
-
 
 export const subSubSubKeyCompletion = vscode.languages.registerCompletionItemProvider(
     ['javascript', 'typescript'],
@@ -119,8 +118,8 @@ export const subSubSubKeyCompletion = vscode.languages.registerCompletionItemPro
             
             let completionItems: any[] = [];
                     
-            if(typeof (UtilityClasses as any)['UtilityClasses'][keyName][subkeyName][subsubkeyName] === 'object') {
-                Object.keys((UtilityClasses as any)['UtilityClasses'][keyName][subkeyName][subsubkeyName]).forEach((item) => {
+            if(typeof (coreClasses as any)['coreClasses'][keyName][subkeyName][subsubkeyName] === 'object') {
+                Object.keys((coreClasses as any)['coreClasses'][keyName][subkeyName][subsubkeyName]).forEach((item) => {
                     completionItems = [...completionItems, createMethodCompletionItem(item)];
                 });
             };

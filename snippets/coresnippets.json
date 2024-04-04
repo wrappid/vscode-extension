@@ -2,6 +2,7 @@
     "ChildMap": {
       "key": "ChildMap",
       "prefix": "ChildMap",
+      "description":"",
       "body": [
         "<ChildMap>",
         "\t$1",
@@ -11,6 +12,7 @@
     "CoreAccordion": {
       "key": "CoreAccordion",
       "prefix": "CoreAccordion",
+      "description":"",
       "body": [
         "<CoreAccordion>",
         "\t$1",

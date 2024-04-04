@@ -5,12 +5,14 @@ export const simplecompletions = vscode.languages.registerCompletionItemProvider
         const styleClass='styleClasses={[]}';
         const styleclassCompletion = new vscode.CompletionItem(styleClass,vscode.CompletionItemKind.Property);
         styleclassCompletion.insertText=new vscode.SnippetString('styleClasses={[$0]}');
-        const commitCharacterCompletion = new vscode.CompletionItem('CoreClasses',vscode.CompletionItemKind.Method);
-        commitCharacterCompletion.commitCharacters = ['.'];
-        commitCharacterCompletion.documentation = new vscode.MarkdownString('Press `.` to get more options');
+
+        const coreCompletion = new vscode.CompletionItem('CoreClasses',vscode.CompletionItemKind.Method);
+        coreCompletion.documentation = new vscode.MarkdownString('Press `.` to get more options');
+        coreCompletion.commitCharacters = ['.'];
+        
         return [
             styleclassCompletion,
-            commitCharacterCompletion
+            coreCompletion
         ];
     }
 });

@@ -1,4 +1,7 @@
-export const UtilityClasses = {
+import { utilityClasses } from "./UtilityKeys";
+
+export const coreClasses = {
+    ...utilityClasses,
     DEV_BORDER: "devBorder",
     /**************************************************
      * Alignment
